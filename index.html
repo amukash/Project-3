@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Major+Mono+Display&family=Young+Serif&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav id="main-navbar">
+        <ul id="navbar-container">
+          <li id="onpage"><a href="index.html">Homepage</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="cars.html">Cars</a></li>
+          <li><a href="map.html">Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 id="heading">Welcome Page</h1>
+    <h2>Tell me about yourself!</h2>
+
+    <form>
+      <fieldset id="information">
+        <legend id="info">Information</legend>
+        <div>
+          <label>First Name: <input size="100" type="text" name="first_name_field"></label>
+        </div>
+        <div>
+          <label>Last Name: <input size="100" type="text" name="last_name_field"></label>
+        </div>
+        <div>
+          <label>Phone: <input size="100" type="text" name="phone_field"></label>
+        </div>
+        <div>
+          <label>Email: <input size="100" type="text" name="email_field"></label>
+        </div>
+        <div>Gender:</div>
+        <div>
+          <label>Male <input type="radio" name="gender_field" value="male"></label>
+          <label>Female <input type="radio" name="gender_field" value="female"></label>
+        </div>
+        <div>Age:</div>
+        <select name="age_field">
+          <option>under 18</option>
+          <option>18-24</option>
+          <option>25-34</option>
+          <option>35-44</option>
+          <option>45-54</option>
+          <option>55-64</option>
+          <option>65 and over</option>
+        </select>
+      </fieldset>
+      <fieldset id="survey">
+        <label>What is the name of your school? </label>
+        <div>
+          <textarea name="comments_field"></textarea>
+        </div>
+        <label>What is your major? </label>
+        <div>
+          <textarea name="comments_field"></textarea>
+        </div>
+        <label>What is your dream job?</label>
+        <div>
+          <textarea name="comments_field"></textarea>
+        </div>
+        <label>What is your fun fact? </label>
+        <div>
+          <textarea name="comments_field"></textarea>
+        </div>
+      </fieldset>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
