@@ -1,5 +1,5 @@
 body {
-    background-image: url("/media/background3.png");
+    background-color: rgb(213, 194, 169);
     background-size: cover;
 }
 header {
@@ -27,7 +27,6 @@ header {
     padding: 20px 40px;
     margin: 40px 40px;
     font-size: x-large;
-    
 }
 
 #main-navbar ul li :hover {
